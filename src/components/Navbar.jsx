@@ -45,7 +45,7 @@ const Navbar = () => {
 
       {menuOpen && (
         <div className="md:hidden p-2 bg-stone-950/30 backdrop-blur-lg rounded-xl flex flex-col space-y-4 max-w-6xl mx-auto">
-          {LINKS.map((link, index) => {
+          {LINKS.map((link, index) => (
             <a
               href={link.href}
               key={index}
@@ -53,8 +53,8 @@ const Navbar = () => {
               onClick={handleLinkClick}
             >
               {link.label}
-            </a>;
-          })}
+            </a>
+          ))}
         </div>
       )}
     </nav>
