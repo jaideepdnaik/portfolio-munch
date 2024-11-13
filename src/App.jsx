@@ -1,4 +1,5 @@
 import BlurBackground from "./components/BlurBackground";
+import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
 const App = () => {
@@ -6,6 +7,10 @@ const App = () => {
     <>
       <BlurBackground/>
       <Navbar/>
+      <main className="antialiase overflow-x-hidden max-w-7xl mx-auto relative z-10">
+        <Navbar/>
+        <Hero/>
+      </main>
     </>
   )
 };
