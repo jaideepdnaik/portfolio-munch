@@ -12,6 +12,8 @@ import person4 from "../assets/person4.webp";
 import person5 from "../assets/person5.webp";
 import person6 from "../assets/person6.webp";
 
+import resume from "./Resume_Minchu_HR.pdf";
+
 export const LINKS = [
   { href: "#work", label: "Work" },
   { href: "#about", label: "About" },
@@ -27,7 +29,7 @@ export const HERO_CONTENT = {
   description:
     "I’m currently helping businesses bring their visions to life through interactive digital solutions.",
   resumeLinkText: "Download Resume",
-  resumeLink: "/resume.pdf",
+  resumeLink: resume,
 };
 
 export const PROJECTS = [
