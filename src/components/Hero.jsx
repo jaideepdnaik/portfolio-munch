@@ -17,10 +17,10 @@ const containerVariants = {
 
 const imageVariants = {
   hidden: {
-    clipPath: "inset(0 50% 0 50%)",
+    clipPath: "inset(0 50% 0 50%",
   },
   visible: {
-    clipPath: "inset(0 0% 0 0%)",
+    clipPath: "inset(0 0% 0 0%",
     transition: { duration: 1.2, ease: "easeInOut" },
   },
 };
@@ -51,7 +51,7 @@ const Hero = () => {
           </motion.p>
 
           <motion.a
-            className="bg-stone-50 tetx-stone-900 p-3 lg:p-4 mt-8 inline-block rounded-2xl"
+            className="bg-stone-50 text-stone-900 p-3 lg:p-4 mt-8 inline-block rounded-2xl"
             href={HERO_CONTENT.resumeLink}
             download
             rel="noopener noreferrer"
