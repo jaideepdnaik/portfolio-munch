@@ -36,17 +36,17 @@ const Hero = () => {
           variants={containerVariants}
         >
           <motion.h1
-            className="text-2xl md:text-3xl lg:text-5xl my-14"
+            className="text-2xl md:text-3xl lg:text-4xl my-14"
             variants={textVariants}
           >
             {HERO_CONTENT.greeting}
           </motion.h1>
 
-          <motion.p className="text-xl md:text-2xl lg:text-4xl mb-4">
+          <motion.p className="text-xl md:text-2xl lg:text-2xl mb-4">
             {HERO_CONTENT.introduction}
           </motion.p>
 
-          <motion.p className="text-xl md:text-2xl lg:text-4xl">
+          <motion.p className="text-xl md:text-2xl lg:text-2xl">
             {HERO_CONTENT.description}
           </motion.p>
 
