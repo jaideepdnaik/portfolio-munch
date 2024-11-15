@@ -25,9 +25,9 @@ export const LINKS = [
 export const HERO_CONTENT = {
   greeting: "Hey there! 🖐️",
   introduction:
-    "I’m Jason Root, a creative frontend developer, crafting immersive and intuitive web experiences.",
+    "I’m Minchu H R, a passionate HR and Digital Marketing enthusiast, blending creativity and strategy to enhance talent experiences and drive impactful business outcomes. ",
   description:
-    "I’m currently helping businesses bring their visions to life through interactive digital solutions.",
+    "Currently pursuing a PGDM, I specialize in leveraging digital platforms to connect people and amplify organizational growth.",
   resumeLinkText: "Download Resume",
   resumeLink: resume,
 };
