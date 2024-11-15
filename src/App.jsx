@@ -7,7 +7,7 @@ const App = () => {
     <>
       <BlurBackground/>
       <Navbar/>
-      <main className="antialiase overflow-x-hidden max-w-7xl mx-auto relative z-10">
+      <main className="antialiased overflow-x-hidden max-w-7xl mx-auto relative z-10">
         <Navbar/>
         <Hero/>
       </main>
