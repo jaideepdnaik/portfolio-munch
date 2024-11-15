@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
-import { TESTIMONIALS } from "../constants";
+import { BLOGS } from "../constants";
 
-const Testimonials = () => {
+const Blogs = () => {
   const childVariants = {
     hidden: { opacity: 0, y: 50 },
     visible: (i) => ({
@@ -15,14 +15,14 @@ const Testimonials = () => {
   };
 
   return (
-    <section className="px-6 py-10 min-h-screen" id="testimonials">
+    <section className="px-6 py-10 min-h-screen" id="blogs">
       <h1 className="text-4xl md:text-6xl font-medium tracking-tight mb-10">
         Check About My Blogs
       </h1>
       <div className="h-1 w-20 mb-8 bg-white"></div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {TESTIMONIALS.map((testimonial, index) => (
+        {BLOGS.map((blog, index) => (
           <motion.div
             key={index}
             className="relative rounded-lg p-6 h-full backdrop-blur-3xl bg-stone-500/10"
@@ -32,15 +32,15 @@ const Testimonials = () => {
             variants={childVariants}
           >
             <div className="flex items-center mb-4">
-                <img src={testimonial.image} alt={testimonial.name} className="w-12 h-12 rounded-full mr-4" loading="lazy" />
+                <img src={blog.image} alt={blog.name} className="w-12 h-12 rounded-full mr-4" loading="lazy" />
                 <div>
-                    <h2 className="text-lg font-semibold">{testimonial.name}</h2>
-                    <p className="text-sm font-light">{testimonial.title}</p>
+                    <h2 className="text-lg font-semibold">{blog.name}</h2>
+                    <p className="text-sm font-light">{blog.title}</p>
                 </div>
             </div>
 
             <p className="leading-relaxed">
-                {testimonial.feedback}
+                {blog.feedback}
             </p>
           </motion.div>
         ))}
@@ -49,4 +49,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default Blogs;

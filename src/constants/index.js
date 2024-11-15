@@ -14,7 +14,7 @@ export const LINKS = [
   { href: "#work", label: "Work" },
   { href: "#about", label: "About" },
   { href: "#experience", label: "Experience" },
-  { href: "#testimonials", label: "Testimonials" },
+  { href: "#blogs", label: "Blogs" },
   { href: "#contact", label: "Contact" },
 ];
 
@@ -62,7 +62,7 @@ export const EXPERIENCES = [
   },
 ];
 
-export const TESTIMONIALS = [
+export const BLOGS = [
   {
     name: "Sarah Johnson",
     title: "Frontend Engineer, Google",

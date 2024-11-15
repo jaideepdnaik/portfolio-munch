@@ -5,7 +5,7 @@ import Experience from "./components/Experience";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
-import Testimonials from "./components/Testimonials";
+import Blogs from "./components/Blogs";
 
 const App = () => {
   return (
@@ -18,7 +18,7 @@ const App = () => {
         <Projects />
         <About />
         <Experience />
-        <Testimonials />
+        <Blogs />
         <Contact/>
       </main>
     </>
