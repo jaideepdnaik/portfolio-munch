@@ -1,9 +1,5 @@
 import projects1 from "../assets/projects1.webp";
 import projects2 from "../assets/projects2.webp";
-import projects3 from "../assets/projects3.webp";
-import projects4 from "../assets/projects4.webp";
-import projects5 from "../assets/projects5.webp";
-import projects6 from "../assets/projects6.webp";
 
 import person1 from "../assets/person1.webp";
 import person2 from "../assets/person2.webp";
