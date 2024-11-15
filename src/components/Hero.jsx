@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { HERO_CONTENT } from "../constants";
-import jason from "../assets/jason-root.webp";
+import minchu from "../assets/Profile Photo.jpeg";
 
 const textVariants = {
   hidden: {
@@ -68,7 +68,7 @@ const Hero = () => {
           animate="visible"
           variants={imageVariants}
         >
-          <img src={jason} alt="Minchu HR" width={650} height={650} className="rounded-3xl" />
+          <img src={minchu} alt="Minchu HR" width={650} height={650} className="rounded-3xl" />
         </motion.div>
       </div>
     </section>
