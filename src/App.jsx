@@ -1,5 +1,6 @@
 import About from "./components/About";
 import BlurBackground from "./components/BlurBackground";
+import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -18,6 +19,7 @@ const App = () => {
         <About />
         <Experience />
         <Testimonials />
+        <Contact/>
       </main>
     </>
   );
