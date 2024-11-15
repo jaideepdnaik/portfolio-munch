@@ -34,41 +34,16 @@ export const HERO_CONTENT = {
 
 export const PROJECTS = [
   {
-    name: "Streamerzz",
-    description: "Live stream management tool for content creators",
+    name: "Research on Digital Marketing Trends Among Youths",
+    description: "Exploring youth-driven digital marketing trends.",
     image: projects1,
     link: "https://github.com/your-github/streamerzz",
   },
   {
-    name: "NutriTrack",
-    description: "Track your meals and calories with smart AI suggestions",
+    name: "Research on Sustainability in the Energy Sector",
+    description: "Innovative paths to sustainable energy solutions.",
     image: projects2,
     link: "https://github.com/your-github/nutritrack",
-  },
-  {
-    name: "HairRevive",
-    description: "A platform for hair regrowth solutions powered by science",
-    image: projects3,
-    link: "https://github.com/your-github/hairrevive",
-  },
-  {
-    name: "DevDeck",
-    description:
-      "Interactive dashboard for developers to track coding activity",
-    image: projects4,
-    link: "https://github.com/your-github/devdeck",
-  },
-  {
-    name: "FitConnect",
-    description: "Fitness social network to connect athletes and trainers",
-    image: projects5,
-    link: "https://github.com/your-github/fitconnect",
-  },
-  {
-    name: "WellNest",
-    description: "A wellness app for mental and physical health improvement",
-    image: projects6,
-    link: "https://github.com/your-github/wellnest",
   },
 ];
 
