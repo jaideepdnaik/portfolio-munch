@@ -49,8 +49,7 @@ export const PROJECTS = [
 
 export const ABOUT_CONTENT = {
   paragraphs: [
-    "I am a dedicated frontend developer with a passion for building modern web applications that are both functional and aesthetically pleasing. Over the years, I have worked on numerous projects ranging from single-page applications to complex multi-tiered systems, always ensuring high performance and seamless user experiences.",
-    "I specialize in using technologies like React, Next.js, and Tailwind CSS to create responsive and scalable interfaces. My focus is on writing clean, maintainable code while collaborating with cross-functional teams to deliver projects that meet both business goals and user needs. I thrive in environments that challenge me to continuously learn and grow.",
+    "Highly motivated and detail-oriented HR and Digital Marketing aspirant, currently pursuing Post Graduate Diploma in Management (Class of 2025) with a dual focus on Human Resources and Marketing. My internship experience in Learning and Development has deepened my understanding of organizational behavior and talent development. With a strong interest in social media and human behavior, I aim to harness the power of digital platforms to drive business outcomes and enhance employee experiences. Collaborative, analytical, and creative, I'm eager to make a meaningful impact in the HR and marketing landscape.",
   ],
 };
 
