@@ -55,33 +55,13 @@ export const ABOUT_CONTENT = {
 
 export const EXPERIENCES = [
   {
-    yearRange: "2023 — Now",
-    title: "Senior Frontend Engineer at TechCorp",
-    location: "Paris, France",
+    yearRange: "July 2024 — October 2024",
+    title: "Human Resources Intern (L&D)",
+    location: "Toyota Kirloskar Motors, Bangalore ",
     description: [
-      "Leading the development of scalable frontend architecture for enterprise-level applications.",
-      "Collaborating with cross-functional teams to deliver high-quality, user-centric solutions.",
-      "Driving innovation through continuous improvements in performance and UI/UX design.",
-    ],
-  },
-  {
-    yearRange: "2021 — 2023",
-    title: "Frontend Engineer at Startup Inc.",
-    location: "Remote",
-    description: [
-      "Built dynamic, responsive, and accessible web applications using React, Next.js, and Tailwind CSS.",
-      "Spearheaded frontend optimization efforts, resulting in a 40% performance boost.",
-      "Mentored junior developers and led internal frontend workshops.",
-    ],
-  },
-  {
-    yearRange: "2018 — 2021",
-    title: "Frontend Developer at Creative Solutions",
-    location: "London, UK",
-    description: [
-      "Developed and maintained user interfaces for high-traffic websites.",
-      "Worked closely with designers to implement pixel-perfect designs.",
-      "Optimized websites for SEO and performance, resulting in a 30% increase in traffic.",
+      "Designed and implemented employee training programs, aligning with corporate training strategies.",
+      "Conducted skills assessments to identify training needs and supported HR initiatives.",
+      "Gained practical insights into Learning & Development within the automotive industry.",
     ],
   },
 ];
