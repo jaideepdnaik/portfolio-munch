@@ -32,15 +32,30 @@ const Blogs = () => {
             variants={childVariants}
           >
             <div className="flex items-center mb-4">
-                <img src={blog.image} alt={blog.name} className="w-12 h-12 rounded-full mr-4" loading="lazy" />
-                <div>
-                    <h2 className="text-lg font-semibold">{blog.name}</h2>
-                    <p className="text-sm font-light">{blog.title}</p>
-                </div>
+              <img
+                src={blog.image}
+                alt={blog.name}
+                className="w-12 h-12 rounded-full mr-4"
+                loading="lazy"
+              />
+              <div>
+                <h2 className="text-lg font-semibold">{blog.name}</h2>
+                <p className="text-sm font-light">{blog.title}</p>
+              </div>
             </div>
 
             <p className="leading-relaxed">
-                {blog.feedback}
+              {blog.feedback}
+              <br />
+              <br />
+              <a
+                href={blog.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800 underline"
+              >
+                Read More
+              </a>
             </p>
           </motion.div>
         ))}
