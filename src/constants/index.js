@@ -64,46 +64,44 @@ export const EXPERIENCES = [
 
 export const BLOGS = [
   {
-    name: "Sarah Johnson",
-    title: "Frontend Engineer, Google",
+    name: "Memoirs",
+    title: "My Unforgettable Journey in Mysore",
     feedback:
-      "Jason is one of the most talented developers I've had the pleasure of working with. His skills in frontend development are unparalleled, and his ability to solve complex problems with ease is truly impressive. His leadership and communication make him a standout developer in any team.",
+      "My three years in Mysore, pursuing a B.Sc. in BMBT at JSS College, were an adventurous journey of unforgettable experiences, deep friendships, and life-changing lessons. Despite the challenges of hostel life during the COVID-19 pandemic, I built lasting bonds, adapted to new realities, and created cherished memories, from navigating warden rules to crafting creative leave excuses.",
     image: person1,
+    link: "https://minchuhr.blogspot.com/2024/05/my-unforgettable-journey-in-mysore.html?m=1"
   },
   {
-    name: "Michael Anderson",
-    title: "Product Manager, Facebook",
+    name: "Andaman Escapade",
+    title: "A Short but Memorable Trip to Andaman and Nicobar Islands",
     feedback:
-      "Jason was instrumental in driving our product forward. His keen eye for detail and ability to work cross-functionally made him an invaluable asset. He consistently delivers top-quality work and elevates the projects he's involved in. He’s a natural leader, and his expertise in frontend technologies is outstanding.",
+      "Earlier this June, my family and I embarked on a brief yet unforgettable journey to the Andaman and Nicobar Islands. Despite it being monsoon season, which we later learned from the locals is not the ideal time to visit, we thoroughly enjoyed our trip. The best time to visit these islands is from September to April when the weather is more accommodating. Here's a detailed account of our adventure.",
     image: person2,
+    link: "https://minchuhr.blogspot.com/2024/06/a-short-but-memorable-trip-to-andaman.html?m=1"
   },
   {
-    name: "Emily Davis",
-    title: "Lead Designer, Amazon",
+    name: "Homecoming",
+    title: "An Inspiring Journey Back Home",
     feedback:
-      "Working with Jason has been a phenomenal experience. His deep understanding of both design and development allowed us to push the boundaries of what we could achieve. His creative problem-solving abilities and commitment to quality are second to none.",
+      "After a week of exhausting exams in Bangalore, I finally boarded the bus back to my native place, looking forward to some well-deserved rest. Little did I know that this journey would turn into an enlightening experience, thanks to a chance encounter with a remarkable stranger.",
     image: person3,
+    link: "https://minchuhr.blogspot.com/2024/06/an-inspiring-journey-back-home.html?m=1"
   },
   {
-    name: "David Lee",
-    title: "Senior Developer, Microsoft",
+    name: "Rekindled Ties",
+    title: "Family bonds after a while",
     feedback:
-      "Jason's contribution to our team was nothing short of amazing. His technical knowledge, combined with his passion for creating user-friendly and scalable applications, made a significant impact on the success of our product. He’s always willing to go the extra mile to ensure the best outcome.",
+      "After what felt like an eternity, I finally had the opportunity to reconnect with my cousin and spend some truly valuable time together. The occasion was nothing short of enlightening, filled with laughter, late-night stories, and a sense of nostalgia that only family can bring.",
     image: person4,
+    link: "https://minchuhr.blogspot.com/2024/11/family-bonds-after-while.html?m=1"
   },
   {
-    name: "Laura Martinez",
-    title: "CTO, Shopify",
+    name: "Toyota Chronicles",
+    title: "An Unforgettable Internship Experience at Toyota Kirloskar",
     feedback:
-      "Jason brought a level of expertise and professionalism to our team that was greatly appreciated. His focus on scalability and clean code ensured that our platform could handle large traffic loads without compromising performance. His work ethic and collaboration skills are impeccable.",
+      "My three-month internship at Toyota Kirloskar was an incredible adventure. Immersing myself in the Japanese work culture was a truly enriching experience. The respect, equality, and camaraderie among employees left a lasting impression.",
     image: person5,
-  },
-  {
-    name: "Chris Brown",
-    title: "Co-founder, Stripe",
-    feedback:
-      "Jason combines technical proficiency with excellent leadership skills. He was a key part of our success, helping us build a robust and scalable product. His attention to detail and ability to manage teams made him an invaluable part of the company.",
-    image: person6,
+    link: "https://minchuhr.blogspot.com/2024/11/an-unforgettable-internship-experience.html?m=1"
   },
 ];
 
