@@ -107,27 +107,27 @@ export const BLOGS = [
 export const CONTACT_CONTENT = {
   headline: "LET'S WORK ON SOMETHING GREAT",
   description:
-    "I'm excited to collaborate on projects that push boundaries and create meaningful impact. Let's build something innovative and exceptional together.",
-  email: "jason@example.com",
+    "I'm passionate about leveraging digital platforms and human insights to drive impactful business outcomes and elevate employee experiences. Let's collaborate to create meaningful change and innovation.",
+  email: "minchuhr18@gmail.com",
   socialLinks: [
     {
-      platform: "Twitter",
-      url: "https://twitter.com/yourprofile",
-      ariaLabel: "Follow me on Twitter",
-      icon: "RiTwitterXFill",
+      platform: "Instagram",
+      url: "https://www.instagram.com/art_by_minchu/",
+      ariaLabel: "Follow me on Instagram",
+      icon: "RiInstagramFill",
     },
-    {
-      platform: "GitHub",
-      url: "https://github.com/yourprofile",
-      ariaLabel: "View my GitHub profile",
-      icon: "RiGithubFill",
-    },
+    // {
+    //   platform: "GitHub",
+    //   url: "https://github.com/yourprofile",
+    //   ariaLabel: "View my GitHub profile",
+    //   icon: "RiGithubFill",
+    // },
     {
       platform: "LinkedIn",
-      url: "https://linkedin.com/in/yourprofile",
+      url: "https://www.linkedin.com/in/minchu-h-r-b6077925a/",
       ariaLabel: "Connect with me on LinkedIn",
       icon: "RiLinkedinFill",
     },
   ],
-  footerText: `© ${new Date().getFullYear()} Jason Root. All rights reserved.`,
+  footerText: `© ${new Date().getFullYear()} Minchu H R. All rights reserved.`,
 };

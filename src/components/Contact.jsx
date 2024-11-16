@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { CONTACT_CONTENT } from "../constants";
-import { RiGithubFill, RiLinkedinFill, RiTwitterXFill } from "@remixicon/react";
+import { RiGithubFill, RiInstagramFill, RiLinkedinFill } from "@remixicon/react";
 
 const textVariants = {
   hidden: {
@@ -80,19 +80,18 @@ const Contact = () => {
       <div className="flex space-x-6 mt-8">
         {CONTACT_CONTENT.socialLinks.map((link, index) => {
           const Icon =
-            link.icon === "RiTwitterXFill"
-              ? RiTwitterXFill
-              : link.icon === "RiGithubFill"
-              ? RiGithubFill
+            link.icon === "RiInstagramFill"
+              ? RiInstagramFill
               : RiLinkedinFill;
-
+      
           return (
             <motion.a
               href={link.url}
               target="_blank"
               rel="noopener noreferrer"
               key={link.platform}
-              aria-label={link.ariaLabel}              initial="hidden"
+              aria-label={link.ariaLabel}
+              initial="hidden"
               whileInView="visible"
               custom={1.0 + index * 0.2}
               variants={iconVariants}
