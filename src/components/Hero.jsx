@@ -42,11 +42,17 @@ const Hero = () => {
             {HERO_CONTENT.greeting}
           </motion.h1>
 
-          <motion.p className="text-xl md:text-2xl lg:text-2xl mb-4">
+          <motion.p
+            className="text-xl md:text-2xl lg:text-2xl mb-4"
+            variants={textVariants}
+          >
             {HERO_CONTENT.introduction}
           </motion.p>
 
-          <motion.p className="text-xl md:text-2xl lg:text-2xl">
+          <motion.p
+            className="text-xl md:text-2xl lg:text-2xl"
+            variants={textVariants}
+          >
             {HERO_CONTENT.description}
           </motion.p>
 
@@ -68,7 +74,13 @@ const Hero = () => {
           animate="visible"
           variants={imageVariants}
         >
-          <img src={minchu} alt="Minchu HR" width={650} height={650} className="rounded-3xl" />
+          <img
+            src={minchu}
+            alt="Minchu HR"
+            width={650}
+            height={650}
+            className="rounded-3xl"
+          />
         </motion.div>
       </div>
     </section>
