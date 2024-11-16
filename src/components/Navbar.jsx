@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 w-full z-50">
       <div className="flex justify-between items-center max-w-6xl mx-auto md:my-2 bg-stone-950/30 p-4 md:rounded-xl backdrop-blur-lg">
         <div className="text-white font-semibold text-lg uppercase">
-          <a href="/">Minchu HR</a>
+          <a href="/">Minchu H R</a>
         </div>
 
         <div className="hidden md:flex space-x-8">
