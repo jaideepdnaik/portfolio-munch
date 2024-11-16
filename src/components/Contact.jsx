@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { CONTACT_CONTENT } from "../constants";
-import { RiGithubFill, RiInstagramFill, RiLinkedinFill } from "@remixicon/react";
+import { RiInstagramFill, RiLinkedinFill } from "@remixicon/react";
 
 const textVariants = {
   hidden: {
