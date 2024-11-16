@@ -6,7 +6,6 @@ import person2 from "../assets/person2.webp";
 import person3 from "../assets/person3.webp";
 import person4 from "../assets/person4.webp";
 import person5 from "../assets/person5.webp";
-import person6 from "../assets/person6.webp";
 
 import resume from "./Resume_Minchu_HR.pdf";
 
